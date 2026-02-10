@@ -119,7 +119,7 @@ src/football_club/
 
 - Python >= 3.11
 - uv (gestión de dependencias)
-- API Key de Anthropic (Claude)
+- API Key de Groq
 
 ## 🧪 Testing
 
@@ -135,5 +135,6 @@ uv run pytest --cov=football_club --cov-report=html
 
 - **LangGraph** - Framework de workflows multi-agente
 - **LangChain** - Orquestación de LLMs
-- **Claude 4.5 Sonnet** - Modelo de lenguaje
+- **Groq** - Proveedor de LLM
+- **llama-3.3-70b-versatile** - Modelo de lenguaje
 - **Python 3.13** - Lenguaje de programación
